@@ -1,0 +1,197 @@
+body{
+    background-color: #fcfcf9;
+    overflow-x: hidden;
+}
+
+body h1, label{
+    font-family: 'Helvetica';
+}
+
+p, input{
+    font-family: 'Proxima Nova';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* About styling landing page! */ 
+
+.wie-ben-ik-block{
+    padding-left: 5em;
+    border-top: 2px solid #6482ff;
+    border-bottom: 2px solid #6482ff;
+    display: flex;
+    cursor: pointer;
+}
+
+.wie-ben-ik-block:hover::after{
+    content: " >>>";
+    font-size: 4em;
+    color: #6482ff;
+    margin-top: 1em;
+    margin-left: 1em;
+    transition: 2s;
+}
+
+
+h1{
+    font-size: 5vw;
+    color: #6482FF;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: -7px 5px 1px #faf9fc;
+}
+
+.button{
+    padding: .5em 2em;
+    margin-top: 10em;
+    border-radius: 10px;
+    background: none;
+    font-weight: 900;
+    text-decoration: none;
+    border: 3px solid #1CA1E8;
+    color: #a4a4a4;
+}
+
+
+.button:hover{
+    background-color: #1CA1E8;
+    color: white;
+    transition: .5s;
+}
+
+.text-positioning p{
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 4em;
+    max-width: 30vw;
+    min-width: 25vw;
+}
+
+/* Cases styling landing page! */
+
+.cases-block{
+    padding-left: 5em;
+    border-bottom: 2px solid #6482ff;
+    display: flex;
+    cursor: pointer;
+}
+
+.cases-block:hover::after{
+    content: " >>>";
+    font-size: 4em;
+    color: #6482ff;
+    margin-top: 1em;
+    margin-left: 1em;
+    transition: 2s;
+};
+
+/* Expertise styling landing page! */
+
+.carousel-styling{
+    margin-top: 5em;
+}
+
+.card-frontend{
+    background-color: white;
+    max-width: 300px;
+    min-width: 300px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.card-frontend:hover{
+    transform: scale(1.02);
+    box-shadow: none;
+    cursor: pointer;
+    transition: 1.5s;
+    border: 5px solid #6482ff;
+}
+
+.card-frontend:hover .read-more a{
+    transition: 1.5s;
+    color: #6482ff;
+}
+
+.card-container {
+    padding: 2em;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-container h2{
+    color: #014B73;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.card-container p{
+    font-weight: 400;
+}
+
+.card-container a{
+    text-decoration: none;
+    color: #a4a4a4;
+    font-weight: 900;
+}
+
+.dot{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #6482ff;
+    display: inline-block;
+}
+
+.read-more {
+    text-align: right;
+    margin-bottom: 0;
+}
+
+/* Quote styling landing page! */
+
+.quote-landing{
+    margin-bottom: 18em;
+    margin-top: 18em;
+}
+
+.quote-tekst{
+    text-align: center;
+}
+
+.quote-tekst h1{
+    color: #014B73;
+    font-size: 96px;
+    padding: .2em;
+}
+
+.quote-tekst h1::before{
+    content:  " '' ";
+    opacity: .7;
+    color: orange;
+    position: absolute;
+    font-size: 350px;
+    font-weight: bold;
+    z-index: -1;
+    font-family: 'Fugaz One';
+    margin-top: -.3em;
+    margin-left: -.33em;
+}
+
+.quote-tekst:hover h1{
+    transform: scale(1.02);
+    transition: .5s;
+}
+
+.quote-landing p{
+    margin: auto;
+    max-width: 30em;
+    text-align: center;
+}
+
+.quote:nth-child(1),
+.quote:nth-child(4){
+    color: #FFA838;
+}

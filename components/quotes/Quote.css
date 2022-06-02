@@ -1,0 +1,42 @@
+/* .quotestyling{
+    text-align: -webkit-center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.quotestyling img{
+    max-width: 80px;
+}
+
+.quotestyling h3{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.quotestyling p{
+    max-width: 50vw;
+    color: gray;
+    font-size: 1.3em;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+}
+
+span::before{
+    content: "";
+    height: 6px;
+    width: 6px;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+span:hover::before{
+    background-color: #454545;
+}
+
+span[data-quote="${active}"]::before {
+    background-color: #454545;
+} */

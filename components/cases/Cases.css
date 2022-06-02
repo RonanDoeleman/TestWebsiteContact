@@ -1,0 +1,80 @@
+/* Big Case styling cases page! */
+
+.foto-big{
+    width: 40em;
+    height: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.case-big{
+    display: flex;
+    gap: 2em;
+}
+
+.case-big-content{
+    align-self: flex-end;
+    margin-bottom: 1em;
+}
+
+/* Small Case styling cases page! */
+
+.container-case-small{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+    margin-top: 4em;
+}
+
+.cases-small{
+    display: grid;
+    margin-top: 8em;
+}
+
+.case-small-1 img{
+    width: 100%;
+}
+
+.case-small-2{
+    margin-top: 15%;
+}
+
+.case-small-2 img{
+    width: 100%;
+}
+
+/* Customer review styling cases page! */
+
+.customer-reviews{
+    display: grid;
+    margin-top: 4em;
+}
+
+.customer-reviews h1{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: right;
+}
+
+.customer-review-1{
+    text-align: -webkit-center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.customer-review-1 img{
+    max-width: 80px;
+}
+
+.customer-review-1 p{
+    max-width: 50vw;
+}
+
+
+/* Big Case styling cases page! */
+
+.case-big2{
+    display: flex;
+    gap: 2em;
+    margin-top: 12em;
+}
